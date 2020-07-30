@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+
+<body>
+  <div id="proposal-bar">
+
+  </div>
+  <div class="proposal-container">
+    <div class="proposal-display">
+
+    </div>
+    <div class="notes-container">
+      <h4>Notes</h4>
+      <ul class="notes-list">
+
+      </ul>
+      <p>Create New Note</p>
+      <div class="create-note">
+
+      </div>
+    </div>
+
+    <button id="edit-notes-button">Open Notes Editor</button>
+
+    <!-- The Modal -->
+    <div id="edit-notes-modal" class="modal">
+
+      <!-- Modal content -->
+      <div class="modal-content">
+        <button type="button" class="btn-close" id="modal_close" aria-label="close">Close Window</button>
+        <ul>
+
+        </ul>
+        <!-- <p>Hi friends</p> -->
+        <form id="edit-note">
+          <input type="hidden" name="id">
+          <textarea></textarea>
+          <br>
+          <input type="submit">
+        </form>
+      </div>
+
+    </div>
+  </div>
+  <script src="src/script.js"></script>
+</body>
+
+</html>
